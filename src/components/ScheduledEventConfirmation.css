@@ -1,0 +1,64 @@
+
+.confirmation-card {
+  background-color: #ffffff;
+  
+  padding: 20px;
+  width: 50vw; /* Adjust width as needed */
+  
+}
+
+.confirmation-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:blue;
+  text-align:center;
+}
+
+.confirmation-card p {
+  margin-bottom: 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.google-button,
+.microsoft-button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .confirmation-card {
+    width: 80vw; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .confirmation-card {
+    width: 90vw; /* Adjust width for even smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+.logo {
+  width: 24px; /* Adjust logo size as needed */
+  margin-right: 8px;
+}
+.mr{
+color:blue;
+text-align:center;}
